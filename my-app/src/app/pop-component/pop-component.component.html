@@ -1,0 +1,21 @@
+
+    <WingBlank>
+      <WhiteSpace></WhiteSpace>
+
+      <div Button (onClick)="showModal('modal4')">closable</div>
+      <WhiteSpace></WhiteSpace>
+      <Modal
+        [(ngModel)]="this.state.modal4"
+        [transparent]="true"
+        [title]="'Title'"
+        [closable]="true"
+        (onClose)="onClose('modal4')"
+      >
+        <div [ngStyle]="{ height: 100, overflow: 'scroll' }">
+          scoll content... <br />
+          scoll content... <br />
+          scoll content... <br />
+        </div>
+      </Modal>
+    </WingBlank>
+  

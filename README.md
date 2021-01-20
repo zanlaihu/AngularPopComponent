@@ -1,5 +1,50 @@
+# csv转对象
+csv读取考验基本算法。
+
+根据理解，难点在于给出的interface中存在parent和children这两个互相嵌套的结构。
+
+最终结果没能完全满足要求。[查看结果](题目1/csv转js对象.ts)
+
+# find函数
+难点在于通过函数的形式返回一个含有函数属性的对象。
+```
+var find = funciton(obj){
+    return {
+        a:a
+        b:b
+        c:function(d){
+            ...
+        }
+    }
+}
+```
+从而让可以直接调用find.c
+如果将find制作成一个对象构造器，就不符合题意。
+
+最终结果符合要求
+[查看结果](题目2/find函数.js)
+
+
 # AngularPopComponent
+本弹窗采用了ng zorro mobile框架
+http://ng.mobile.ant.design/#/docs/introduce/zh
 
-通过angular框架将bootstrap弹窗做出共通组件。
+使用了里面提供的modal组件
+http://ng.mobile.ant.design/#/components/modal/zh
 
-bootstrap弹窗地址：https://getbootstrap.com/docs/4.2/components/modal/#live-demo
+最终效果
+[查看结果](my-app)
+
+1.按钮按下前
+![avator](pic/按下前.png)
+2.按钮按下后
+![avator](pic/按下后.png)
+
+# XHR缓存
+目前接触项目采用angular的akita来实现后端API的发送request与接收response的异步操作。
+
+通过
+
+未接触ajax开发，并且相关内容无法在工作日期间短时间掌握。故而放弃该题。
+
+

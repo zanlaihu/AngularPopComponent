@@ -7,12 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgZorroAntdMobileModule } from 'ng-zorro-antd-mobile';
-import { PopcomponentComponent } from './popcomponent/popcomponent.component';
+import { PopComponentComponent } from './pop-component/pop-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PopcomponentComponent
+    PopComponentComponent
   ],
   imports: [
     BrowserModule,
