@@ -3,7 +3,7 @@ csv读取考验基本算法。
 
 根据理解，难点在于给出的interface中存在parent和children这两个互相嵌套的结构。
 
-最终结果没能完全满足要求。
+最终结果没能完全满足要求。[查看结果](题目1/csv转js对象.ts)
 
 # find函数
 难点在于通过函数的形式返回一个含有函数属性的对象。
@@ -22,7 +22,7 @@ var find = funciton(obj){
 如果将find制作成一个对象构造器，就不符合题意。
 
 最终结果符合要求
-
+[查看结果](题目2/find函数.js)
 
 
 # AngularPopComponent
@@ -33,6 +33,7 @@ http://ng.mobile.ant.design/#/docs/introduce/zh
 http://ng.mobile.ant.design/#/components/modal/zh
 
 最终效果
+[查看结果](my-app)
 
 1.按钮按下前
 ![avator](pic/按下前.png)
