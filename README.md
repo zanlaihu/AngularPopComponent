@@ -44,5 +44,6 @@ http://ng.mobile.ant.design/#/components/modal/zh
 
 通过
 
-未接触ajax开发，并且相关内容无法在短时间掌握。故而放弃该题。
+未接触ajax开发，并且相关内容无法在工作日期间短时间掌握。故而放弃该题。
+
 
