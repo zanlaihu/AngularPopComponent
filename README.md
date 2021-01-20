@@ -41,7 +41,7 @@ http://ng.mobile.ant.design/#/components/modal/zh
 ![avator](pic/按下后.png)
 
 # XHR缓存
-目前接触项目采用angular的akita来实现异步操作
+目前接触项目采用angular的akita来实现后端API的发送request与接收response的异步操作。
 
 通过
 
